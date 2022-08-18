@@ -12,9 +12,12 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form id="survey-form">
-      <input type="text" id="name" />
-      <input type="email" id="email" />
-      <input type="number" id="number" />
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter Your Name" />
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter Your Email"/>
+      <label for="number" id="number-label">Number</label>
+      <input min="5" max="15" type="number" id="number" placeholder="Enter Your Number"/>
     </form>
   </body>
 </html>
